@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Chesapeake Bay</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <!-- Add Cycle2 plugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle2/2.1.6/jquery.cycle2.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Discover the Wonders of Chesapeake Bay</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#wildlife">Wildlife</a></li>
+            <li><a href="#conservation">Conservation Efforts</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Chesapeake Bay</h2>
+            <p>The Chesapeake Bay is the largest estuary in the United States. It plays a vital role in the ecosystem, supporting a wide range of wildlife and providing resources for millions of people.</p>
+            <!-- Slideshow for About Section -->
+            <div class="cycle-slideshow"
+                data-cycle-fx="fade"
+                data-cycle-timeout="3000"
+                data-cycle-slides="> img">
+                <img src="images/chesapeake1.jpeg" alt="Chesapeake Bay scenic view 1">
+                <img src="images/chesapeake2.jpeg" alt="Chesapeake Bay scenic view 2">
+                <img src="images/chesapeake3.jpeg" alt="Chesapeake Bay scenic view 3">
+            </div>
+        </section>
+
+        <!-- Wildlife Section -->
+        <section id="wildlife">
+            <h2>Wildlife of Chesapeake Bay</h2>
+            <p>Chesapeake Bay is home to over 3,600 species of plants and animals. From the majestic blue crabs to the diverse bird population, it offers an incredible variety of life.</p>
+            <!-- Slideshow for Wildlife Section -->
+            <div class="cycle-slideshow"
+                data-cycle-fx="fade"
+                data-cycle-timeout="3000"
+                data-cycle-slides="> img">
+                <img src="images/wildlife1.jpeg" alt="Wildlife in Chesapeake Bay - Blue Crabs">
+                <img src="images/wildlife2.jpeg" alt="Wildlife in Chesapeake Bay - Herons">
+                <img src="images/wildlife3.jpeg" alt="Wildlife in Chesapeake Bay - Fishes">
+            </div>
+        </section>
+
+        <!-- Conservation Section -->
+        <section id="conservation">
+            <h2>Conservation Efforts</h2>
+            <p>Efforts are underway to protect and restore the Chesapeake Bay. These efforts include pollution reduction, habitat restoration, and community engagement.</p>
+            <!-- Slideshow for Conservation Section -->
+            <div class="cycle-slideshow"
+                data-cycle-fx="fade"
+                data-cycle-timeout="3000"
+                data-cycle-slides="> img">
+                <img src="images/conservation1.jpeg" alt="Conservation in Chesapeake Bay - Cleanup">
+                <img src="images/conservation2.jpeg" alt="Conservation in Chesapeake Bay - Volunteers">
+                <img src="images/conservation3.jpeg" alt="Conservation in Chesapeake Bay - Restoration">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Amarveer Singh - Exploring the Beauty of Chesapeake Bay</p>
+    </footer>
+</body>
+</html>
